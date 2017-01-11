@@ -37,7 +37,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="/Users/t-murota/Projects/learning/deep-learning-from-scratch/venv"
+VIRTUAL_ENV="$HOME/Projects/learning/deep-learning-from-scratch/venv"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
